@@ -1,12 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe App</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>hello</h1>
+
+  <header>
+    <h1>🍴 Flavors of Happiness🍴</h1>
+    <p>Delicious & Easy Recipes For You!</p>
+    <a href="https://www.allrecipes.com/" target="_blank" class="recipe-btn">🍴 Explore Recipes 🍴</a>
+  </header>
+
+  <main class="recipe-grid">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1597393353365-9d4366392fe9?q=80&w=1171&auto=format&fit=crop" alt="Pasta">
+      <h2>🍝 Classic Pasta 🍝</h2>
+
+      <input type="checkbox" id="recipe1" class="toggle">
+      <label for="recipe1" class="view-btn">View Recipe</label>
+
+      <div class="card-content">
+        <h3><u class="u">Ingredients 🍲</u></h3>
+        <ul>
+          <li>200g Pasta</li>
+          <li>1/2 cup Parmesan Cheese</li>
+          <li>1 cup Heavy Cream</li>
+          <li>Fresh Parsley</li>
+          <li>Salt & Pepper</li>
+          <li>2 Garlic cloves</li>
+          <li>2 tbsp Butter</li>
+        </ul>
+        <h3><u>Recipe 🍽</u></h3>
+        <p><i><ul>
+  <li>200g pasta ko namak wale pani me al dente tak ubal lo.</li>
+  <li>Ek pan me butter melt karo aur garlic ko sauté karo jab tak khushboo aaye.</li>
+  <li>Heavy cream aur Parmesan cheese mila do.</li>
+  <li>Salt aur black pepper se taste adjust karo.</li>
+  <li>Pasta ko creamy sauce me toss karo.</li>
+  <li>Zarurat ho to thoda pasta water add karo sauce ko smooth banane ke liye.</li>
+  <li>Parsley garnish karke garam-garam serve karo.</li>
+  <li>Ye dish rich, cheesy, aur 350–400 calories ke aas-paas hai.</li>
+</ul></i></p>
+        <h3><u>Calories & Nutrition serving.,</u></h3>
+        <ul>
+          <li>Calories: 380 kcal</li> 
+          <li>Protein: 8.7 g</li> 
+          <li>Iron: ~0.75 mg</li> 
+          <li>Carbohydrates: 16.8 g</li> 
+          <li>Calcium: ~100 mg</li> 
+          <li>Fat: 31.5 g</li> 
+          <li>Fiber: 0.75 g</li> 
+          <li>Minerals:</li> 
+          <li>Sodium: depends on added salt</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://media.istockphoto.com/id/1367128544/photo/a-salad-of-lettuce-tomato-lambs-lettuce-and-escarole-on-a-black-plate-on-a-slate-background.jpg?s=1024x1024&w=is&k=20&c=-vtFvLAtmkH7lHqa8XDid_85YHCVHdrJ_e5ZkZzKcyw=" alt="Salad">
+      <h2>🥗 Fresh Salad 🥗</h2>
+
+      <input type="checkbox" id="recipe2" class="toggle">
+      <label for="recipe2" class="view-btn">View Recipe</label>
+
+      <div class="card-content">
+        <h3><u>Ingredients 🥦</u></h3>
+        <ul>
+          <li>Mixed Greens</li>
+          <li>Cucumber, Carrots, Tomatoes</li>
+          <li>Avocado, Boiled Egg</li>
+          <li>Feta Cheese, Sunflower Seeds</li>
+        </ul>
+         <h3><u>Recipe 🍽</u></h3>
+    <p><i><ul>
+  <li>Mixed greens, sliced cucumber, halved cherry tomatoes, shredded carrots, aur thinly sliced red onion ko ek bowl me daalo.</li>
+  <li>Sliced avocado aur ek boiled egg add karo protein ke liye.</li>
+  <li>Upar se feta cheese crumble karo.</li>
+  <li>Sunflower seeds sprinkle karo crunch ke liye.</li>
+  <li>Olive oil aur balsamic vinegar drizzle karo.</li>
+  <li>Dheere se toss karke mix karo.</li>
+  <li>Ye simple aur fresh salad flavorful hai aur ek perfect light meal hai.</li>
+</ul>
+<h3><u>Calories & Nutrition healthy meal!</u></h3>
+
+        <h3><u>Calories & Nutrition healthy meal!</u></h3>
+        <ul>
+          <li>Calories: 380 kcal</li> 
+          <li>Protein: 8.7 g</li> 
+          <li>Iron: ~0.75 mg</li> 
+          <li>Carbohydrates: 16.8 g</li> 
+          <li>Calcium: ~100 mg</li> 
+          <li>Fat: 31.5 g</li> 
+          <li>Fiber: 0.75 g</li> 
+          <li>Minerals:</li> 
+          <li>Sodium: depends on added salt</li>
+
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <img src="https://media.istockphoto.com/id/869598944/photo/delicious-chocolate-layer-cake.webp?a=1&b=1&s=612x612&w=0&k=20&c=KsYewEoT4zhq-FaKotpCFExTcy4PkBBpslxLBoM3rg4=" alt="Cake">
+      <h2>🎂 Chocolate Cake 🎂</h2>
+      <input type="checkbox" id="recipe3" class="toggle">
+      <label for="recipe3" class="view-btn">View Recipe</label>
+
+      <div class="card-content">
+        <h3><u>Ingredients 🧁</u></h3>
+        <ul>
+          <li>Flour, Cocoa Powder, Sugar</li>
+          <li>Baking Powder & Soda</li>
+          <li>Eggs, Milk, Oil</li>
+        </ul>
+        <h3><u>Recipe 🍽</u></h3>
+<ul>
+  <li>Oven ko 350°F (175°C) par preheat karo aur 9-inch round cake pan ko grease aur flour karo.</li>
+  <li>Ek large bowl me flour, cocoa powder, sugar, baking powder, baking soda, aur salt sift karke mix karo.</li>
+  <li>Eggs, milk, vegetable oil, aur vanilla extract add karo aur smooth hone tak mix karo.</li>
+  <li>Dheere-dheere boiling water add karo (batter thoda patla hoga).</li>
+  <li>Batter ko prepared pan me daal do aur 30–35 minutes bake karo ya jab tak toothpick clean na nikle.</li>
+  <li>Cake ko pan me 10 minutes ke liye thanda hone do, phir wire rack par completely cool hone ke liye rakho.</li>
+  <li>Cool hone ke baad chaaho to frosting karo aur enjoy karo!</li>
+</ul>
+<h3><u>Calories & Nutrition</u></h3>
+
+        <ul>
+          <li>Carbohydrates: 33g</li> 
+          <li>Calories: 240 kcal</li> 
+          <li>Saturated Fat: 1.5g</li> 
+          <li>Potassium: 150mg</li> 
+          <li>Calcium: 2% DV</li> 
+          <li>Iron: 10% DV</li> 
+          <li>Protein: 3g</li> 
+          <li>Sugars: 22g</li> 
+          <li>Fat: 11g</li> 
+          <li>Fiber: 2g</li>
+        </ul>
+      </div>
+    </div>
+
+  </main>
+
 </body>
 </html>
